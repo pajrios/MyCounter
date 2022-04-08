@@ -45,6 +45,11 @@ Counter >> initialize [
 	count := 0
 ]
 
+{ #category : #'instance creation' }
+Counter >> newAuthor [
+	^'pajrios'
+]
+
 { #category : #printing }
 Counter >> printOn: aStream [
 	super printOn: aStream.
